@@ -20,13 +20,6 @@ public class FileOperation {
         }
 
         return result.toString();
-
-        /*try (PrintWriter writer = new PrintWriter(resultFile)){
-            writer.print(result);
-        } catch (FileNotFoundException e){
-            System.out.println("Error write to file");
-        }*/
-
     }
 
     public static String getStringFromFile(File file) throws IOException{
